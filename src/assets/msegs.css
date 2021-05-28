@@ -1,0 +1,54 @@
+
+@import "../assets/msegsstyles.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+
+#app {
+    font-family: 'Playfair Display';
+  }
+.container{
+    margin:0 180px 0 180px;
+}
+
+/* .navbar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color:$primarycolor;
+} */
+
+.headings{
+ 
+       
+        margin: 0 143.5px 16.5px 0;
+        font-family: 'Playfair Display', serif;        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0a2458;
+}
+
+.contents{
+
+     
+        margin: 10.5px 12px 10px 0;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #6d6d6d;
+ 
+
+}
+
+#app > ul > div > span > li:nth-child(n) > a{
+    text-decoration: none;
+    color:white;
+}
